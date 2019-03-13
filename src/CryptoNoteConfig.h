@@ -94,13 +94,13 @@ namespace parameters {
   static_assert(0 < UPGRADE_VOTING_THRESHOLD && UPGRADE_VOTING_THRESHOLD <= 100, "Bad UPGRADE_VOTING_THRESHOLD");
   static_assert(UPGRADE_VOTING_WINDOW > 1, "Bad UPGRADE_VOTING_WINDOW");
 
-  const char     CRYPTONOTE_BLOCKS_FILENAME[]                  = "intu-blocks.dat";
-  const char     CRYPTONOTE_BLOCKINDEXES_FILENAME[]            = "intu-blockindexes.dat";
-  const char     CRYPTONOTE_BLOCKSCACHE_FILENAME[]             = "intu-blockscache.dat";
-  const char     CRYPTONOTE_POOLDATA_FILENAME[]                = "intu-poolstate.bin";
-  const char     P2P_NET_DATA_FILENAME[]                       = "intu-p2pstate.bin";
-  const char     CRYPTONOTE_BLOCKCHAIN_INDICES_FILENAME[]      = "intu-blockchainindices.dat";
-  const char     MINER_CONFIG_FILE_NAME[]                      = "intu-miner_conf.json";
+  const char     CRYPTONOTE_BLOCKS_FILENAME[]                  = "313-blocks.dat";
+  const char     CRYPTONOTE_BLOCKINDEXES_FILENAME[]            = "313-blockindexes.dat";
+  const char     CRYPTONOTE_BLOCKSCACHE_FILENAME[]             = "313-blockscache.dat";
+  const char     CRYPTONOTE_POOLDATA_FILENAME[]                = "313-poolstate.bin";
+  const char     P2P_NET_DATA_FILENAME[]                       = "313-p2pstate.bin";
+  const char     CRYPTONOTE_BLOCKCHAIN_INDICES_FILENAME[]      = "313-blockchainindices.dat";
+  const char     MINER_CONFIG_FILE_NAME[]                      = "313-miner_conf.json";
   } // parameters
 
   const uint64_t START_BLOCK_REWARD                            = (UINT64_C(10) * parameters::POINT);
@@ -110,7 +110,7 @@ namespace parameters {
 
 
 const char     CRYPTONOTE_NAME[]                             = "313coin";
-const char     GENESIS_COINBASE_TX_HEX[]                     = "010a01ff0001904e029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd0880712101128f6e2f5ff1cc0d95bf80839501c07d79fcb80726f3ca8cdc094b0e2d89dfd3";
+const char     GENESIS_COINBASE_TX_HEX[]                     = "";
 
 const uint32_t GENESIS_NONCE                                 = 70;
 const uint64_t GENESIS_TIMESTAMP                             = 1515479625;
